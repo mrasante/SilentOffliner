@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SilentOffliner</string>
+    <string name="synchronize">Synchronize Offline</string>
+    <string name="gene_offline">Generate Offline</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="support.esri.com.silentoffliner.MainActivity">
+
+<com.esri.android.map.MapView
+    android:id="@+id/map_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--mapoptions.MapType="topo"
+    mapoptions.ZoomLevel="13"
+    mapoptions.center="33.666354, -117.903557"-->
+
+
+</com.esri.android.map.MapView>
+
+    <Button
+        android:id="@+id/offline_generator"
+        android:text="@string/gene_offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/synchronize"
+        android:text="@string/synchronize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/offline_generator"
+        android:layout_alignBottom="@+id/offline_generator"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
